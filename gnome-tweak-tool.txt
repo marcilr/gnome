@@ -1,0 +1,21 @@
+gnome-tweak-tool.txt
+Created Sun Apr 12 11:12:13 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+gnome-tweak-tool
+
+
+Pick and chose what extensions to enable
+
+
+
+Links
+=====
+Applications Menu
+Add a category-based menu for applications.  This extension is part of Classic Mode
+and is officially supported by GNOME.
+https://extensions.gnome.org/extension/6/applications-menu/
+
+Gnome extensions
+https://extensions.gnome.org/
