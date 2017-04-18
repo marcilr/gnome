@@ -1,0 +1,32 @@
+packages.txt
+Created Thu May 26 08:22:21 AKDT 2011
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Gnome related packages on debian.
+
+gkrellm - The GNU Krell Monitors
+gkrellm-x86info - gkrellm plugin displaying the current processor speed
+gkrellmoon - Gkrellm Moon Clock Plugin
+
+gnome-art - install GNOME themes from art.gnome.org
+gnome-control-center - utilities to configure the GNOME desktop
+gnome-btdownload - Gnome interface for 'executing' BitTorrent files
+gnome-do - Quickly perform actions on your desktop
+gnome-do-plugins - Extra functionality for GNOME Do
+gnome-shell-extensions - Extensions to extend functionality of GNOME Shell
+gnome-themes-extras - various themes for the GNOME 2 desktop
+gnome-themes - official themes for the GNOME 2 desktop
+
+nautilus - file manager and graphical shell for GNOME
+
+root-tail - Displays select log files in the X root window
+
+
+Games
+=====
+gnome-breakout - Clone of the classic game Breakout, written for GNOME
+mahjongg - classic Eastern tile game for GNOME
+gnome-hearts - The classic hearts card game for the GNOME desktop
+openyahtzee - classic dice game of Yahtzee
+
