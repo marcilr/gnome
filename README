@@ -7,13 +7,14 @@ GNOME is a graphical interface for debian.
 Configuration details here.
 
 The GNOME Project was started in 1997 by two then university students,
-Miguel de Icaza and Federico Mena.  Their aim: to produce a free (as in freedom)
-desktop environment.  Since then, GNOME has grown into a hugely successful enterprise.
-Used by millions of people across the world, it is the most popular desktop
-environment for GNU/Linux and UNIX-type operating systems.  The desktop has been
-utilised in successful, large-scale enterprise and public deployments, and the
-project's developer technologies are utilised in a large number of popular mobile
-devices.
+Miguel de Icaza and Federico Mena.  Their aim: to produce a free (as
+in freedom) desktop environment.  Since then, GNOME has grown into a
+hugely successful enterprise.  Used by millions of people across the
+world, it is the most popular desktop environment for GNU/Linux and
+UNIX-type operating systems.  The desktop has been utilised in
+successful, large-scale enterprise and public deployments, and the
+project's developer technologies are utilised in a large number of
+popular mobile devices.
 
 archlinux.org/
 
@@ -60,8 +61,9 @@ keys.txt
 menu-definition-files.txt
   Menu Definition Files
 
-  Menu files define the hierarchy of menus that are used in the GNOME menu bar. By modifying
-  these files, you can customize menus for all users, or for a single user depending on the
+  Menu files define the hierarchy of menus that are used in the
+  GNOME menu bar. By modifying these files, you can customize
+  menus for all users, or for a single user depending on the
   location of the applications.menu file that you modify.
 
   /etc/xdg/menus
