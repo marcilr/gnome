@@ -1,0 +1,19 @@
+control-center.txt
+Created Tue Nov  4 14:36:44 AKST 2008
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+gnome-control-center - utilities to configure the GNOME desktop
+
+
+The gnome-control-center lists many controls for gnome settings.
+Doesn't appear to have any file extension mappings though. 
+
+
+Links
+=====
+gnome-control-center 3.22.2+2+g97e4d87ae-1
+GNOME's main interface to configure various aspects of the desktop
+https://www.archlinux.org/packages/extra/i686/gnome-control-center/
+https://git.gnome.org/browse/gnome-control-center
+
