@@ -1,0 +1,14 @@
+menu-definition-files.txt
+Created Sun Apr 12 11:05:20 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+
+Menu Definition Files
+
+
+Menu files define the hierarchy of menus that are used in the GNOME menu bar. By modifying
+these files, you can customize menus for all users, or for a single user depending on the
+location of the applications.menu file that you modify.
+
+/etc/xdg/menus
