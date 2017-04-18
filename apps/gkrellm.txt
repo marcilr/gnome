@@ -1,0 +1,29 @@
+gkrellm.txt
+Created Fri Apr  3 16:16:24 AKDT 2009
+by Raymond E. Marcil
+
+
+Packages
+========
+gkrellm - The GNU Krell Monitors
+gkrellm-x86info - gkrellm plugin displaying the current processor speed
+gkrellmoon - Gkrellm Moon Clock Plugin
+
+
+Install
+=======
+To install The GNU Krell Monitors to autostart in gnome.
+1. System > Preferences > Startup Applications
+2. Click Add
+   Name: gkrellm
+Command: /usr/bin/gkrellm
+Comment: The GNU Krell Monitors
+
+click Add
+
+
+Usage
+=====
+Configure by right clicking on the top frame of gkrellm or by htting the 
+F1 key with the mouse in the gkrellm window.
+
