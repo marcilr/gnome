@@ -1,0 +1,31 @@
+panel.txt
+Created Wed Jun  4 11:32:59 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+At GCI Network Services, OSS running Debian Wheezy 7.5 amd64 covellite 
+workstation with gnome panel across the top.
+
+Started via: ???
+
+GNOME Panel is a highly configurable launcher and taskbar for GNOME.
+It formed a core part of the GNOME desktop in versions 1.x and 2.x.
+It has been replaced in GNOME 3.x by default with GNOME Shell,
+which only works with the Mutter window manager.
+--en.wikipedia.org/wiki/GNOME_Panel
+
+
+Syntax 
+======
+o Move icon:
+Alt > right-click icon > Move 
+
+o Remove icon:
+Alt > right-click icon > Remove From Panel
+
+
+Links
+=====
+GNOME Panel
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/GNOME_Panel
