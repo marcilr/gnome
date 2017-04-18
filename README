@@ -119,6 +119,13 @@ nautilus.txt
 packages.txt
   GNOME related packages in debian
 
+panel.txt
+  GNOME Panel is a highly configurable launcher and taskbar for GNOME.
+  It formed a core part of the GNOME desktop in versions 1.x and 2.x.
+  It has been replaced in GNOME 3.x by default with GNOME Shell,
+  which only works with the Mutter window manager.
+  https://en.wikipedia.org/wiki/GNOME_Panel
+
 run-on-login.txt
   Run on login
 
