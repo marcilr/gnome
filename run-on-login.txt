@@ -1,0 +1,12 @@
+run-on-login.txt
+Created Sun Apr 12 11:00:44 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Run on login
+
+
+Under System > Preferences > Sessions > Startup Programs configure:
+
+~/bin/wallapper - Set desktop wallpaper
+~/bin/gkrellm   - Start gkrellm system monitor
