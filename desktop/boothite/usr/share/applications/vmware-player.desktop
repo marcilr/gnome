@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VMware Player
+Comment=Run a virtual machine
+Exec=/usr/local/vmware/bin/vmplayer
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/hicolor/48x48/apps/vmware-player.png
+StartupNotify=true
+Categories=System;
+X-Desktop-File-Install-Version=0.11
+MimeType=application/x-vmware-vm;
