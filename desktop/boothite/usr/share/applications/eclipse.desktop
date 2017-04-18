@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Categories=GNOME;Application;Development;
+Name=Eclipse
+Comment=IDE
+Exec=/usr/local/eclipse/eclipse
+Icon=/usr/local/eclipse/configuration/org.eclipse.osgi/bundles/118/1/.cp/eclipse32.png
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;
