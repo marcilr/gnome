@@ -116,6 +116,9 @@ nautilus.txt
   Simple file manager
   https://wiki.gnome.org/action/show/Apps/Nautilus?action=show&redirect=Nautilus
 
+packages.txt
+  GNOME related packages in debian
+
 run-on-login.txt
   Run on login
 
