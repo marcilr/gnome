@@ -1,0 +1,10 @@
+version.txt
+Created Sun Apr 12 11:34:08 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Get GNOME 3.x version (debian wheezy 7.8 amd64):
+
+$ gnome-session --version
+gnome-session 3.4.2.1
+$
