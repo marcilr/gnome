@@ -1,0 +1,28 @@
+gparted.txt                                               
+Created Fri Sep 11 14:29:52 AKDT 2009
+by Raymond E. Marcil
+
+
+GParted partition editor
+
+
+gparted - GNOME partition editor
+
+Pretty nice GNOME parition editor.
+
+GParted is a free partition editor for graphically managing
+your disk partitions.
+
+With GParted you can resize, copy, and move partitions without
+data loss, enabling you to:
+o Grow or shrink your C: drive
+o Create space for new operating systems
+o Attempt data rescue from lost partitions
+--http://gparted.org/
+
+
+Links
+=====
+GNOME Partition Editor
+GParted partition editor
+http://gparted.org/
