@@ -1,0 +1,121 @@
+README
+Created Thu Jul 31 08:14:17 AKDT 2008
+by Raymond E. Marcil
+
+
+GNOME is a graphical interface for debian.
+Configuration details here.
+
+The GNOME Project was started in 1997 by two then university students,
+Miguel de Icaza and Federico Mena.  Their aim: to produce a free (as in freedom)
+desktop environment.  Since then, GNOME has grown into a hugely successful enterprise.
+Used by millions of people across the world, it is the most popular desktop
+environment for GNU/Linux and UNIX-type operating systems.  The desktop has been
+utilised in successful, large-scale enterprise and public deployments, and the
+project's developer technologies are utilised in a large number of popular mobile
+devices.
+
+archlinux.org/
+
+
+Filelist
+========
+classic-mode.txt
+  Gnome classic mode
+
+commands.txt
+  ctrl-alt-f2   Terminal window with login prompt
+  ctrl-alt-f7   Back to gnome
+
+configuration.txt
+  Configuration
+  /usr/share/applications/   Desktop menu item config
+  /usr/share/icons/          Icons used in menu items
+
+desktop/
+  gnome desktop configuration per host
+
+desktop-icons.txt
+  Eable desktop icons and right-click 
+
+F1-F4.txt
+  Configure F1-F4 hotkeys for swapping screens
+
+gdm.txt
+  GNOME Display Manager
+
+gnome-shell-cli-installation-of-extensions.txt
+  Gnome Shell - Command line Installation of Extensions
+  from http://extensions.gnome.org
+  http://bernaerts.dyndns.org/linux/76-gnome/283-gnome-shell-install-extension-command-line-script
+
+gnome-tweak-tool.txt
+  Pick and chose what extensions to enable
+  https://extensions.gnome.org/
+
+keys.txt
+  alt-f2     enter command to launch application
+  alt-tab    Switches between applications
+
+menu-definition-files.txt
+  Menu Definition Files
+
+  Menu files define the hierarchy of menus that are used in the GNOME menu bar. By modifying
+  these files, you can customize menus for all users, or for a single user depending on the
+  location of the applications.menu file that you modify.
+
+  /etc/xdg/menus
+
+run-on-login.txt
+  Run on login
+
+  Under System > Preferences > Sessions > Startup Programs configure:
+
+  ~/bin/wallapper - Set desktop wallpaper
+  ~/bin/gkrellm   - Start gkrellm system monitor
+
+startup-applications.txt
+  Startup Applications
+
+theme.txt
+  The gnome theme is configured under:
+    System > Preferences > Appearence
+
+usr/
+  Customized applications and icons for GNOME display manager.
+
+version.txt
+  Get GNOME 3.x version (debian wheezy 7.8 amd64):
+
+  $ gnome-session --version
+  gnome-session 3.4.2.1
+  $
+
+
+Links
+=====
+Desktop User Guide
+GNOME Documentation Library
+http://library.gnome.org/users/user-guide/2.22/
+
+GNOME
+https://wiki.archlinux.org/index.php/GNOME
+
+GNOME 2.14 Desktop System Administration Guide
+http://library.gnome.org/admin/system-admin-guide/stable/
+
+HOWTO: Transparent Eterm on Desktop
+Eterm -x -O --buttonbar no --scrollbar no \
+--no-cursor  --geometry 75x54+0+0 -f white --font-fx none
+http://ubuntuforums.org/showthread.php?t=278578
+
+Menu Definition Files
+GNOME Documentation Library
+http://library.gnome.org/admin/system-admin-guide/stable/menustructure-13.html.en
+
+What is GNOME?
+http://www.gnome.org/about/
+
+Menu Definition Files
+GNOME Documentation Library
+http://library.gnome.org/admin/system-admin-guide/stable/menustructure-13.html.en
