@@ -1,0 +1,130 @@
+paralogger.txt
+Created Thu May 28 08:30:56 AKDT 2009
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Paralogger
+==========
+Paralogger is a script to "tail" the system logs in borderless transparent 
+Eterm(s).  Its purpose is to make setting up a "root tail" an easy set and 
+forget.  Paralogger makes the placement of the terminals (geometry) more 
+friendly for the user by detecting the screen resolution and calculating the 
+geometry of the terminals automatically. It can also load or save a 
+configuration file.
+
+freshmeat.net/
+
+This project is unfortunately abandoned by the author (gtk) and is therefore 
+unmaintained.  Feel free to take over maintainership.  After all its released 
+under the GPL. Thank you for your interest in paralogger.
+
+Paralogger is a Bourne shell script to "tail" your system logs in pseudo 
+transparent borderless Eterm(s).
+
+Paralogger's purpose is to make setting up a "root tail" an easy set and 
+forget.
+
+Paralogger is not for any specific window manager.  It works with both 
+Enlightenment and Window Maker as well as all others that plays nicely with 
+Eterm.
+
+
+Why it might be useful
+======================
+Because it is nice to know what is going on with your box. It also adds to
+the eyecandy of your desktop :-)
+
+
+Debian packages
+===============
+There used to be some unofficial ones, any takers?
+
+(License is GPL)
+What makes it different from similar scripts?
+
+illustration Well, you could off course just tail -f /var/log/* in any 
+terminal.  If you are happy with this, then paralogger is not for you.
+
+Paralogger tries to make the placement of the terminals (geometry) a little 
+more friendly for the user.  Normally you would be playing with Eterm options
+and the --geometry switch only to find out that if you switch your screen 
+resolution later you would have had to readjust the geometry of the terminal.
+
+What happens when you start paralogger, is that it detects your screen 
+resolution.  It then uses this information to calculate the base placement of 
+the terminal based on where you want it to be on the screen.  Like the 
+illustration shows here, there are 6 predefined base placement modes.
+
+These 6 predefined placement modes can now be specified from the command line 
+like:
+
+$ paralogger -tl /var/log/messages /var/log/secure
+
+
+Example
+=======
+Let's say I configure paralogger to open the base window at mc (short for 
+middle center).  And my current screen resolution is 800x600. When I start 
+paralogger the base window is in the center of the screen. I then quit X, 
+restart X in 1600x1200 and start paralogger. The base window is still in the 
+center.
+
+It doesn't matter what screen resolution you are running because paralogger
+will calculate the placement of the terminal for you.
+
+
+Modes of operation
+==================
+You may have been wondering what I mean when I am talking about the base 
+window. This has to do with the different modes paralogger can operate in. In 
+single mode, only one window (the base window) get's opened and is tailing all
+the logs you have specified. In vertical cascade mode or horizontal cascade 
+mode, one window is opened for each log relative to the base window, either 
+below or to the left of this window.
+
+
+Examples
+========
+Keep in mind that these are just examples.
+
+With colortail:
+
+  paralogger -save -color -F nexus -H 5 -tint 0xff8080 /var/log/messages \ 
+  /var/log/secure
+
+Note the -save option, this means you can get away with running only: 
+"paralogger -load" the next time because paralogger will load the options you 
+specified from the configuration file.
+
+With wildcards:
+  paralogger -vv /var/log/*
+
+Note that some files are still empty when tailing them here. The files are not
+colored either, because the default is to use regular tail. There are a lot 
+more files in /var/log/*, but those that are known to be binary or not written
+to any longer are excluded from the list automatically based on certain 
+criterias. This default behavior can be turned off with -nostop.
+
+Horizontal cascade mode:
+  paralogger -f lightblue -hcas -F 5x7 -shade 50 -W 60 -H 6 /var/log/samba/*
+
+Here we specify to use horizontal cascade mode -hcas with a smaller font and 
+width of the terminal than default. Observe that you will need a high monitor
+resolution if you intend to use -hcas with many files.
+
+from: gtk.no/
+
+
+Filelist
+========
+paralogger-1.0.3.tar.gz (Tarball)
+paralogger-1.0.2-1rh73.noarch.rpm (RPM)
+
+bornite's /data/00TARBALLS/gnome/
+
+
+Links
+=====
+Paralogger
+http://freshmeat.net/projects/paralogger/
+http://gtk.no/paralogger
