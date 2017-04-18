@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=2.0.0.19
+Encoding=UTF-8
+Categories=Applications;Network
+Name=Thunderbird
+Comment=Mozilla Thunderbird Mail Client
+Exec=/usr/local/thunderbird/thunderbird
+Icon=/usr/share/icons/thunderbirdicon-24x24.png
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;
