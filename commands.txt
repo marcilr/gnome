@@ -1,0 +1,10 @@
+commands.txt
+Created Sun Apr 12 11:03:52 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Commands
+
+
+ctrl-alt-f2   Terminal window with login prompt
+ctrl-alt-f7   Back to gnome
