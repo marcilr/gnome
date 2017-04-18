@@ -1,0 +1,50 @@
+links.txt
+Created Fri Aug 23 13:20:20 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+GNOME related links
+
+
+Links
+=====
+GNOME
+Solid details on use of dconf for setting background image.
+Used in rewrite of ~/bin/wallpaper script for wheezy 7.1
+(gnome 4, gdm3 package) update.
+o Login background image
+o Automatic program launch upon logging in:
+  gnome-session-properties
+o Disable blinking cursor in Terminal:
+  gsettings set org.gnome.desktop.interface cursor-blink false
+https://wiki.archlinux.org/index.php/GNOME
+
+Keyboard Shortcuts
+...
+Switch focus in overview   Ctrl+Alt+Tab
+Switch to next workspace   Ctrl+Alt+Down
+...
+Very nice list.
+https://wiki.gnome.org/Design/OS/KeyboardShortcuts
+
+ROX Desktop
+Another desktop...
+rox-filer - A simple graphical file manager for X11
+http://rox.sourceforge.net/desktop/
+
+What is a good file manager for Linux?
+Last updated on October 8, 2013 Authored by Dan Nanni
+o Dolphin
+o Double Commander
+o GNOME Commander
+o Konqueror
+o Krusader
+o Marlin
+o Midnight Commander
+o muCommander
+o Nautilus
+o PCManFM
+o Sunflower
+o Thunar
+o Xfe
+http://xmodulo.com/good-file-manager-linux.html
