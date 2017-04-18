@@ -30,6 +30,9 @@ gkrellm.txt
   http://gkrellm.srcbox.net/
   https://en.wikipedia.org/wiki/GKrellM
 
+links.txt
+  Links related to gnome applications
+
 paralogger.txt
   Paralogger is a script to "tail" the system logs in borderless
   transparent Eterm(s).  Its purpose is to make setting up a
