@@ -91,9 +91,13 @@ vmware-player.desktop
   https://vmware-player.en.softonic.com/
   https://www.vmware.com/support/player60/doc/player-60-release-notes.html
 
-xemacs.desktop
-  XEmacs text editor
-  https://www.xemacs.org/
+vmware-server.desktop
+  VMware Server (formerly VMware GSX Server) is a discontinued
+  free-of-charge virtualization-software server suite developed
+  and supplied by VMware, Inc.
+  https://en.wikipedia.org/wiki/VMware_Server
+
+  i.e. Now use VMware ESXi
 
 
 Links
