@@ -99,6 +99,11 @@ vmware-server.desktop
 
   i.e. Now use VMware ESXi
 
+writer.desktop
+  Apache OpenOffice Writer 
+  Deprecated - updated to new LibreOffice
+  https://www.openoffice.org/product/writer.html
+
 
 Links
 =====
