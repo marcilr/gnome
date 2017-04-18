@@ -1,0 +1,11 @@
+wallpaper.txt
+Created Fri Apr  3 16:00:29 AKDT 2009
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To get ~/bin/wallpaper script to run at login in gnome
+under System > Preferences > Sessions add wallpaper script
+or  consolidated /home/marcilr/bin/desktop script to the
+Startup Programs.  
+
+Sweet.
