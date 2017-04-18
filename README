@@ -87,6 +87,10 @@ gnome-tweak-tool.txt
   Pick and chose what extensions to enable
   https://extensions.gnome.org/
 
+gparted.txt
+  GNOME Partition Editor
+  http://gparted.org/
+
 keys.txt
   alt-f2     enter command to launch application
   alt-tab    Switches between applications
