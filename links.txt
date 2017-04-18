@@ -32,6 +32,11 @@ Another desktop...
 rox-filer - A simple graphical file manager for X11
 http://rox.sourceforge.net/desktop/
 
+GNU Screen
+Screen is a full-screen window manager that multiplexes a physical
+terminal between several processes, typically interactive shells.
+https://www.gnu.org/software/screen/
+
 What is a good file manager for Linux?
 Last updated on October 8, 2013 Authored by Dan Nanni
 o Dolphin
