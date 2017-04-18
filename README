@@ -110,6 +110,12 @@ mimetypes.txt
   Support of MIME types in Debian packages
   http://wiki.debian.org/MimeTypesSupport
 
+nautilus.txt
+  nautilus - file manager and graphical shell for GNOME
+  Nautilus
+  Simple file manager
+  https://wiki.gnome.org/action/show/Apps/Nautilus?action=show&redirect=Nautilus
+
 run-on-login.txt
   Run on login
 
