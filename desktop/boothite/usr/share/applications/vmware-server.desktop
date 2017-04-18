@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VMware Server Console
+Comment=Run and manage virtual machines
+Exec=vmware
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/hicolor/48x48/apps/vmware-server.png
+StartupNotify=true
+Categories=Application;System;
+X-Desktop-File-Install-Version=0.11
+MimeType=application/x-vmware-vm;
