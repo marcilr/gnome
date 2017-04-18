@@ -1,0 +1,28 @@
+README
+Created Wed Mar 31 07:33:45 AKDT 2010
+by Raymond E. Marcil
+
+
+Some application specific icons for /usr/share/applications/*.desktop use.
+
+Installing icons to /usr/share/applications.  Tired of them getting nuked when
+new version of the app is installed under /use/local.
+
+
+Filelist
+========
+mozicon128.png
+  Firefox icon
+  /usr/local/firefox-3.6/icons/mozicon128.png
+
+thunderbirdicon-24x24.png
+  Scaled, googled Thunderbird image.
+  This looks like the size of the images displayed on UAA ITS Debian Lenny boothite
+  workstation.
+
+thunderbirdicon-48x48.png
+  Scaled, googled Thunderbird image.
+
+thunderbirdicon-128x128.png
+  Original, googled Thunderbird image.
+
