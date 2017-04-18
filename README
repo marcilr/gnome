@@ -105,6 +105,11 @@ menu-definition-files.txt
 
   /etc/xdg/menus
 
+mimetypes.txt
+  MimeTypesSupport
+  Support of MIME types in Debian packages
+  http://wiki.debian.org/MimeTypesSupport
+
 run-on-login.txt
   Run on login
 
