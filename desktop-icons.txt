@@ -1,0 +1,16 @@
+desktop-icons.txt
+Created Sat Apr 11 18:19:26 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Eable desktop icons and right-click:
+
+$ dconf-editor
+
+  or
+
+alt-f2 - run application prompt, enter dconf-editor
+
+Go to org > gnome > desktop > background and check the box to show desktop icons.
+  check show-desktop icons
+
