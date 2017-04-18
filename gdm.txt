@@ -1,0 +1,110 @@
+gdm.txt
+Created Mon Jul 28 12:53:13 AKDT 2008
+by Raymond E. Marcil
+
+
+gdm - GNOME Display Manager
+
+
+Mon Jul 28 13:10:20 AKDT 2008
+=============================
+Took a few minutes bit I don't think 'dpkg-reconfigure gdm' fixed gnome.
+Hung yet again.
+
+ctrl-alt-f1   Terminal window
+ctrl-alt-f2   Terminal window 
+ctrl-alt-f7   GNOME window
+
+
+dpkg-reconfigure - reconfigure an already installed package
+
+dpkg-reconfigure [options] packages
+
+dpkg-reconfigure reconfigures packages after they have already been installed. 
+Pass it the names of a package or packages to reconfigure.
+
+This has the same effect as re-installing the package, basically. I hope one 
+day this will be called by dpkg --reconfigure 
+
+
+Package: gdm
+Version: 2.20.6-1
+Severity: important
+
+gdm does not start automatically, but it starts when i type gdm at the 
+prompt.
+
+so, i thought i would try to reconfigure it:
+# dpkg-reconfigure gdm
+Scheduling reload of GNOME Display Manager configuration: 
+gdminvoke-rc.d: initscript gdm, action "reload" failed.
+
+
+-- System Information:
+Debian Release: lenny/sid
+  APT prefers unstable
+  APT policy: (500, 'unstable'), (1, 'experimental')
+Architecture: i386 (i686)
+
+Kernel: Linux 2.6.25-2-686 (SMP w/2 CPU cores)
+Locale: LANG=en_US.UTF-8, LC_CTYPE=en_US.UTF-8 (charmap=UTF-8)
+Shell: /bin/sh linked to /bin/bash
+
+Versions of packages gdm depends on:
+ii  adduser                3.107             add and remove users and groups
+ii  debconf [debconf-2.0]  1.5.22            Debian configuration management sy
+ii  gksu                   2.0.0-5           graphical frontend to su
+ii  gnome-session [x-sessi 2.22.2-1          The GNOME 2 Session Manager
+ii  gnome-terminal [x-term 2.22.2-1          The GNOME 2 terminal emulator appl
+ii  konsole [x-terminal-em 4:4.0.2-1         X terminal emulator for KDE 4
+ii  kwin [x-window-manager 4:4.0.2-1         the KDE 4 window manager
+ii  libart-2.0-2           2.3.20-2          Library of functions for 2D graphi
+ii  libatk1.0-0            1.22.0-1          The ATK accessibility toolkit
+ii  libattr1               1:2.4.41-1        Extended attribute shared library
+ii  libc6                  2.7-11            GNU C Library: Shared libraries
+ii  libcairo2              1.6.4-2           The Cairo 2D vector graphics libra
+ii  libdbus-1-3            1.2.1-2           simple interprocess messaging syst
+ii  libdbus-glib-1-2       0.74-4            simple interprocess messaging syst
+ii  libdmx1                1:1.0.2-3         X11 Distributed Multihead extensio
+ii  libfontconfig1         2.5.93-1          generic font configuration library
+ii  libfreetype6           2.3.5-1+b1        FreeType 2 font engine, shared lib
+ii  libglade2-0            1:2.6.2-1         library to load .glade files at ru
+ii  libglib2.0-0           2.16.3-2          The GLib library of C routines
+ii  libgnomecanvas2-0      2.20.1.1-1        A powerful object-oriented display
+ii  libgtk2.0-0            2.12.9-4          The GTK+ graphical user interface 
+ii  libpam-modules         0.99.7.1-6        Pluggable Authentication Modules f
+ii  libpam-runtime         0.99.7.1-6        Runtime support for the PAM librar
+ii  libpam0g               0.99.7.1-6        Pluggable Authentication Modules l
+ii  libpango1.0-0          1.20.2-2          Layout and rendering of internatio
+ii  librsvg2-2             2.22.2-2          SAX-based renderer library for SVG
+ii  librsvg2-common        2.22.2-2          SAX-based renderer library for SVG
+ii  libselinux1            2.0.59-1          SELinux shared libraries
+ii  libwrap0               7.6.q-15          Wietse Venema's TCP wrappers libra
+ii  libx11-6               2:1.0.3-7         X11 client-side library
+ii  libxau6                1:1.0.3-3         X11 authorisation library
+ii  libxdmcp6              1:1.0.2-3         X11 Display Manager Control Protoc
+ii  libxext6               2:1.0.4-1         X11 miscellaneous extension librar
+ii  libxi6                 2:1.1.3-1         X11 Input extension library
+ii  libxinerama1           2:1.0.3-2         X11 Xinerama extension library
+ii  libxml2                2.6.32.dfsg-2     GNOME XML library
+ii  lsb-base               3.2-12            Linux Standard Base 3.2 init scrip
+ii  metacity [x-window-man 1:2.22.0-1        A lightweight GTK2 based Window Ma
+ii  zlib1g                 1:1.2.3.3.dfsg-12 compression library - runtime
+
+Versions of packages gdm recommends:
+ii  dialog             1.1-20080316-1        Displays user-friendly dialog boxe
+ii  gdm-themes         0.5.1                 Themes for the GNOME Display Manag
+ii  whiptail           0.52.2-11.2           Displays user-friendly dialog boxe
+ii  xnest              2:1.4.1~git20080517-1 Nested X server
+ii  xserver-xephyr     2:1.4.1~git20080517-1 nested X server
+ii  xserver-xorg       1:7.3+10              the X.Org X server
+ii  zenity             2.22.1-1              Display graphical dialog boxes fro
+
+-- debconf information:
+  gdm/daemon_name: /usr/bin/gdm
+* shared/default-x-display-manager: gdm
+
+Links
+=====
+What is GNOME?
+http://www.gnome.org/about/
