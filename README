@@ -152,6 +152,11 @@ theme.txt
   The gnome theme is configured under:
     System > Preferences > Appearence
 
+twitim.txt
+  Twitim is a Twitter client for GNOME. It features XMPP connections,
+  custom watchlists, sounds, and pop-up notifications.
+  http://freshmeat.net/projects/twitim
+
 usr/
   Customized applications and icons for GNOME display manager.
 
