@@ -1,0 +1,43 @@
+README
+Created Tue Apr 18 09:57:43 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+aterm.txt
+  AfterStep - Aterm : The AfterStep Terminal Emulator
+  http://www.afterstep.org/aterm.php
+
+btdownload.txt
+  gnome-btdownload - Gnome interface for 'executing' BitTorrent files
+  A Gnome MIME-sink for BitTorrent files.
+  This utility allows Gnome browsers to handle BitTorrent files naturally.
+  Once it is installed, browsers will automatically pass bittorrent files
+  to this utility and it will start to download the file.
+  https://launchpad.net/gnome-btdownload
+
+do.txt
+  GNOME Do (often referred to as Do) is a free application launcher
+  for Linux originally created by David Siegel, and currently
+  maintained by Alex Launi.  Like other application launchers, it
+  allows searching for applications and files, but it also allows
+  specifying actions to perform on search results.
+  https://en.wikipedia.org/wiki/GNOME_Do
+
+gkrellm.txt
+  gkrellm - The GNU Krell Monitors
+  http://gkrellm.srcbox.net/
+  https://en.wikipedia.org/wiki/GKrellM
+
+paralogger.txt
+  Paralogger is a script to "tail" the system logs in borderless
+  transparent Eterm(s).  Its purpose is to make setting up a
+  "root tail" an easy set and forget.  Paralogger makes the
+  placement of the terminals (geometry) more friendly for the
+  user by detecting the screen resolution and calculating the
+  geometry of the terminals automatically. It can also load or
+  save a configuration file.
+  http://gtk.no/paralogger
+
+root-tail.txt
