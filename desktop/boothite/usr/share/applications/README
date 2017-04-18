@@ -1,0 +1,102 @@
+README
+Created Tue Apr 18 09:42:09 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Desktop entries for applications, or .desktop files, are generally
+a combination of meta information resources and a shortcut of an
+application. These files usually reside in /usr/share/applications
+or /usr/local/share/applications for applications installed
+system-wide, or ~/.local/share/applications for user-specific
+applications. User entries take precedence over system entries.
+--archlinux.org/
+
+
+File example
+============
+Following is an example of its structure with additional comments.
+The example is only meant to give a quick impression, and does not
+show how to utilize all possible entry keys.  The complete list of
+keys can be found in the freedesktop.org specification.
+
+[Desktop Entry]
+
+# The type as listed above
+Type=Application
+
+# The version of the desktop entry specification to which this file complies
+Version=1.0
+
+# The name of the application
+Name=jMemorize
+
+# A comment which can/will be used as a tooltip
+Comment=Flash card based learning tool
+
+# The path to the folder in which the executable is run
+Path=/opt/jmemorise
+
+# The executable of the application, possibly with arguments.
+Exec=jmemorize
+
+# The name of the icon that will be used to display this entry
+Icon=jmemorize
+
+# Describes whether this application needs to be run in a terminal or not
+Terminal=false
+
+# Describes the categories in which this entry should be shown
+Categories=Education;Languages;Java;
+
+--archlinux.org/
+
+
+Filelist
+========
+aterm.desktop
+  AfterStep - Aterm : The AfterStep Terminal Emulator
+  https://en.wikipedia.org/wiki/Aterm
+  http://www.afterstep.org/aterm.php
+
+danpei.desktop
+  Danpei -- a Gtk+ based Image Viewer
+  http://danpei.sourceforge.net/
+
+eclipse.desktop
+  Eclipse provides IDEs and platforms for nearly every language
+  and architecture. We are famous for our Java IDE, C/C++,
+  JavaScript and PHP IDEs built on extensible platforms for
+  creating desktop, Web and cloud IDEs.  These platforms deliver
+  the most extensive collection of add-on tools available for
+  software developers.
+  https://eclipse.org/
+
+firefox.desktop
+  Official Firefox Web Browser‎
+  https://www.mozilla.org/en-US/firefox/new/
+
+sunbird.desktop
+  Think this was the debian calendar extension
+  for thunderbird.  Now named iceowl.  Thunderbird
+  is now icedove under debian. 
+  https://packages.debian.org/search?keywords=iceowl
+
+thunderbird.desktop
+  Thunderbird mail client
+  https://www.mozilla.org/en-US/thunderbird/
+
+vmware-player.desktop
+  VMware Player for virtual machines
+  Run a totally independent virtual PC in your computer
+  https://vmware-player.en.softonic.com/
+  https://www.vmware.com/support/player60/doc/player-60-release-notes.html
+
+xemacs.desktop
+  XEmacs text editor
+  https://www.xemacs.org/
+
+
+Links
+=====
+Desktop entries
+https://wiki.archlinux.org/index.php/desktop_entries
