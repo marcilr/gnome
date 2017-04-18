@@ -17,12 +17,17 @@ mozicon128.png
 
 thunderbirdicon-24x24.png
   Scaled, googled Thunderbird image.
-  This looks like the size of the images displayed on UAA ITS Debian Lenny boothite
-  workstation.
+  This looks like the size of the images displayed
+  on UAA ITS Debian Lenny boothite workstation.
 
 thunderbirdicon-48x48.png
   Scaled, googled Thunderbird image.
 
 thunderbirdicon-128x128.png
   Original, googled Thunderbird image.
+
+xemacs-icon.xpm
+xemacs-icon2.xbm
+xemacs-icon2.xpm
+xemacs-icon3.xpm
 
