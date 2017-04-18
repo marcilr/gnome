@@ -1,0 +1,36 @@
+startup-applications.txt
+Created Tue Apr 28 09:50:17 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Startup Applications
+
+
+For gnome 3.12 startup applications see ~/.config/autostart/*
+Appears to have configuration that gnome-tweak-tool is modifying.
+
+In cairo-dock.desktop I updated:
+
+Exec=cairo-dock
+  to
+Exec=/home/marcilr/bin/cairo-dock
+
+Gnome used to have startup applications under
+  Applications > System Tools > Preferences > Startup Applications
+  (FIXME: need to verify above path on malachite)
+
+In gnome 3.12 gnome-session-properties that implemented Startup Applications, part of
+gnome-session, got deprecated in favor of the Startup Applications tab in the gnome-tweak-took
+3.12.
+
+bbs.archlinux.org/viewtopic.php?id=180282
+
+
+Added gnome-tweak-tool to Applications > System Tools on GCI Network Services, OSS
+covellite Debian jessie 8.0 amd64 workstation.
+
+
+Links
+=====
+gnome-session-properties removed from GNOME 3.12?
+https://bbs.archlinux.org/viewtopic.php?id=180282
