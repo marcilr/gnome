@@ -1,0 +1,24 @@
+F1-F4.txt
+Created Fri Jun 11 07:22:31 AKDT 2010
+by Raymond E. Marcil
+
+
+On UAA ITS debian boothite workstation have F1 to F4 mapped as shortcuts
+to gnome workspaces 1,2,3, and 4.  
+
+Mapping in gnome under System > Preferences > Keyboard Shortcuts
+
+In Window Management section for each Action click "Disabled"
+under Shortcut until "New shortcut..." appears than click 
+appropriate F1-F4 function key to assign.
+
+Action                    Shortcut
+----------------------------------
+Switch to workspace 1     F1
+Switch to workspace 2     F2
+Switch to workspace 3     F3
+Switch to workspace 4     F4
+
+Click Close
+
+Sweet.
