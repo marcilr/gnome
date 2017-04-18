@@ -134,6 +134,17 @@ run-on-login.txt
   ~/bin/wallapper - Set desktop wallpaper
   ~/bin/gkrellm   - Start gkrellm system monitor
 
+screenrc_back
+  Backup of ~/.screenrc
+
+  Stole some good syntax here.  Info on escaping backticks when pasting.
+  http://nigel.mcnie.name/blog/how-i-use-screen
+  
+  GNU Screen
+  Screen is a full-screen window manager that multiplexes a physical
+  terminal between several processes, typically interactive shells.
+  https://www.gnu.org/software/screen/
+
 startup-applications.txt
   Startup Applications
 
