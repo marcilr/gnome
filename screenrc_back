@@ -1,0 +1,68 @@
+#
+# .screenrc
+# Created Thu Dec 10 11:39:20 AKST 2009
+# by Raymond E. Marcil
+#
+# Links
+# =====
+# GNU Screen
+# Stole some good syntax here.  Info on escaping backticks when pasting.
+# http://nigel.mcnie.name/blog/how-i-use-screen
+#
+#
+vbell off
+startup_message off
+defutf8 on
+
+# Use a 30000-line scrollback buffer
+defscrollback 30000
+nonblock on
+
+#hardstatus off
+#hardstatus alwayslastline
+
+#
+# backtick id lifespan autorefresh cmd args...
+# [...]
+# Program the backtick command with the numerical id id.  The output
+# of such a command is used for substitution of the "%‘" string
+# escape. The specified lifespan is the number  of seconds the output
+# is considered valid. After this time, the command is run again if a
+# corresponding string escape is encountered. The autorefresh parame‐
+# ter triggers an automatic refresh for caption and hardstatus strings
+# after the specified number of seconds. Only the last line of output
+# is used for substitution. If both the lifespan and the autorefresh
+# parameters are zero, the backtick program is expected to stay in the
+# background and generate output once in a while.  In this case, the
+# command is executed right away and screen stores the last line of
+# output. If a new line gets printed screen will automatically refresh
+# the hardstatus or the captions.
+#
+
+backtick 1 60 60 screen_agenda
+#hardstatus alwayslastline "%{= ky} %1`"
+hardstatus alwayslastline "%n %t"
+
+#
+# hardstatus settings:
+# %{= ky}     set color to yellow on black.
+# %{= yk}     set color to black on yellow.
+# %{=r}       reverse the color attrs
+# %-Lw        all window #s, titles, and flags before the current window.
+# %n %t       current window number and title.
+# %+Lw        all windows #s, titles, and flags after the current window.
+# %-=         pad remaining spaces.
+# %M%d        month and day, like MmmDD.
+# %c          current time, like HH:MM.
+# %H          hostname
+#
+
+
+# Startup settings
+screen -t bash     0
+
+# Fix stupid screen overwriting
+altscreen on
+
+# escape key
+escape ``
