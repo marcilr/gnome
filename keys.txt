@@ -1,0 +1,15 @@
+keys.txt
+Created Sun Apr 12 11:50:02 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Keys
+
+
+alt        Hold down to see Power Off... in menu
+alt-f2     Enter command to launch application
+alt-tab    Switches between applications
+
+ctrl-alt-[right or left] key
+           Switch virtual display
+
