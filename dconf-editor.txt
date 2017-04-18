@@ -1,0 +1,30 @@
+dconf-editor.txt
+Created Thu Mar 12 08:42:06 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+dconf-editor - Configuration Editor
+
+
+dconf is a low-level configuration system and settings management.
+Its main purpose is to provide a back end to GSettings on platforms
+that don't already have configuration storage systems.  It depends
+on GLib. It is part of GNOME 3 and is a replacement for GConf.
+--en.wikipedia.org/
+
+Run as root to display icons on desktop in gnome 3.
+
+alt-f2 - run application prompt
+
+Looks like gnome > desktop > applications > background
+
+However, when icons were missing from displays 2,3,4 on GCI Network
+Services, OSS workstation the solution was to delete ~/.cache and
+logout/login.  That did the trick.
+
+
+Links
+=====
+dconf
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/Dconf
