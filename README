@@ -67,6 +67,17 @@ gnome-launch-box.txt
   gnome-launch-box - An application launcher for GNOME
   https://wiki.gnome.org/Projects/GnomeLaunchBox
 
+gnome-panel.txt
+  Gnome panel is a highly configurable launcher and taskbar
+  for GNOME. It formed a core part of the GNOME desktop in
+  versions 1.x and 2.x.   It has been replaced in GNOME
+  3.x by default with GNOME Shell, which only works with
+  the Mutter window manager.
+  --https://en.wikipedia.org/wiki/GNOME_Panel
+
+  gnome-menus - GNOME implementation of the freedesktop 
+                menu specification
+
 gnome-shell-cli-installation-of-extensions.txt
   Gnome Shell - Command line Installation of Extensions
   from http://extensions.gnome.org
