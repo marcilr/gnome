@@ -1,0 +1,61 @@
+classic-mode.txt
+Created Sat Apr 11 18:27:00 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+package: gnome-shell-extensions
+  .xinitrc:
+    exec gnome-session --session=gnome-classic
+
+archlinux.org/
+
+
+If you want to keep an interface closer to the GNOME 2.30 version in wheezy, you can
+select the "GNOME Classic" session at the login prompt.  It will bring you an improved
+version of the traditional panel.  You can still edit the panel to add more applets,
+by using the hidden alt+right click combination.
+
+debian.org/
+
+Use "GNOME Classic" at login!  This provides the Applications drop-down rather than
+the useless Activities drop down.  Also has the Computer, home, and Trash on left 
+where they should be.  Noticed on malachite they got moved to the right display
+display in GNOME 3.  The classic setting is held from login to login.  Thank goodness
+the classic style is easily available.  Nuff said.
+
+
+For modifying extensions see:
+  $ gnome-tweak-tool > Shell Extensions
+
+Get GNOME 3.x version (debian wheezy 7.8 amd64):
+  $ gnome-session --version
+  gnome-session 3.4.2.1
+  $
+
+
+
+Links
+=====
+[SOLVED] How do I access 'Gnome Classic' in 3.8?
+https://bbs.archlinux.org/viewtopic.php?id=162407
+
+Chapter 2. What's new in Debian 7.0
+https://www.debian.org/releases/stable/amd64/release-notes/ch-whats-new.en.html
+
+From GNOME 3 to GNOME Classic in 3 extensions, or why GNOME Classic has become
+redundant
+in Tutorials/Tips / on June 4, 2014 at 11:11 pm /
+http://www.linuxbsdos.com/2014/06/04/from-gnome-3-to-gnome-classic-in-3-extensions-or-why-gnome-classic-has-become-redundant/
+
+GNOME 3.8 brought a "classic mode"
+How GNOME 3.14 is winning back disillusioned Linux users
+http://www.pcworld.com/article/2691192/how-gnome-3-14-is-winning-back-disillusioned-linux-users.html
+
+How GNOME 3.14 is winning back disillusioned Linux users
+Chris Hoffman | @chrisbhoffman
+Oct 2, 2014 10:51 AM
+http://www.pcworld.com/article/2691192/how-gnome-3-14-is-winning-back-disillusioned-linux-users.html
+
+How To Tweak GNOME 3 To Your Needs
+https://piecesoflint.wordpress.com/2011/04/06/how-to-tweak-gnome-3-to-your-needs/
+
