@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Categories=Application;Network;WebBrowser;
+Name=Firefox
+Comment=Browse the web
+Exec=/usr/local/firefox/firefox
+Icon=/usr/share/icons/mozicon128.png
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;
