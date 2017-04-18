@@ -1,0 +1,28 @@
+mimetypes.txt
+Created Fri May 27 13:08:02 AKDT 2011
+by Raymond E. Marcil
+
+
+
+Glossary
+========
+MIME - Multipurpose Internet Mail Extensions
+
+
+
+
+Links
+=====
+Fixing rdp MIME type in Ubuntu Linux 
+Add "application/x-rdp rdp" to /etc/mime.types
+http://andrewtheart.blogspot.com/2008/07/fixing-rdp-mime-type-in-ubuntu-linux.html
+
+MimeTypesSupport
+Support of MIME types in Debian packages
+http://wiki.debian.org/MimeTypesSupport
+
+/etc/mime.types
+"file in which system-wide rules are defined for
+mapping filename suffices to mime types."
+http://wiki.debian.org/MIME/etc/mime.types
+
