@@ -15,8 +15,7 @@ UNIX-type operating systems.  The desktop has been utilised in
 successful, large-scale enterprise and public deployments, and the
 project's developer technologies are utilised in a large number of
 popular mobile devices.
-
-archlinux.org/
+--archlinux.org/
 
 
 Filelist
@@ -92,6 +91,12 @@ version.txt
   $ gnome-session --version
   gnome-session 3.4.2.1
   $
+
+wallpaper.txt
+  To get ~/bin/wallpaper script to run at login in gnome
+  under System > Preferences > Sessions add wallpaper script
+  or  consolidated /home/marcilr/bin/desktop script to the
+  Startup Programs.
 
 
 Links
