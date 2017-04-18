@@ -1,0 +1,52 @@
+do.txt
+Created Thu Mar  5 14:21:51 AKST 2009
+by Raymond E. Marcil
+
+
+FIXME: Change to just windows key?
+
+gnome-do - Quickly perform actions on your desktop
+gnome-do-plugins - Extra functionality for GNOME Do
+
+
+GNOME Do
+========
+GNOME Do (also known as simply Do) is a popular free application launcher for 
+Linux by David Siegel.  Unlike other application launchers, it not only allows
+you to search for applications and files but it also allows you to specify 
+actions to perform on search results by providing instantaneous, 
+action-oriented search results that adapt to reflect user habits and 
+preferences.
+
+While it is designed primarily for the GNOME desktop, it works in other desktop 
+environments, such as KDE.
+
+GNOME Do was inspired by Quicksilver for Mac OS X, and GNOME Launch Box.
+
+from: ohloh.net/
+
+
+Usage
+=====
+hotkey:  Windows + Space
+selecting:   Use up/done arrow keys to select among apps with same starting 
+letters.
+
+
+addins
+======
+~/.do/addins
+
+
+Links
+=====
+GNOME Do - a universal launcher for the GNOME Desktop
+http://linuxhelp.blogspot.com/2007/12/gnome-do-universal-launcher-for-gnome.html
+
+GNOME Do
+http://www.ohloh.net/p/gnome-do
+
+GNOME Do - Launcher tool to search and launch applications files and more
+Good GNOME Do info
+http://www.susegeek.com/desktop/gnome-do-launcher-\
+tool-to-search-and-launch-applications-files-and-more/
