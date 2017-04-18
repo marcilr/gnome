@@ -1,0 +1,43 @@
+aterm.txt
+Created Tue Mar 10 14:04:51 AKDT 2009
+by Raymond E. Marcil
+
+
+aterm - Afterstep XVT - a VT102 emulator for the X window system
+
+The aterm client is the terminal emulator of choice.
+
+
+With new debian lenny install working on aterm config. 
+
+6x13 - Way too small.
+7x14 - A bit small.
+8x16 - Not good font.
+
+
+/usr/share/applications/aterm.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Name=Aterm
+Comment=Use the command line
+TryExec=aterm
+Exec=aterm -fn 7x14 -title `hostname` -vb -bg black -fg gray90 +sb -sl 5000 -g 100x24
+Icon=gnome-terminal.png
+Type=Application
+Categories=GTK;Application;Utility;TerminalEmulator;
+StartupNotify=true
+
+Making aterm borderless and transparent is easy enough:
+$ aterm -borderLess -tr +sb
+
+"-borderLess" (remove titlebar etc)
+"-tr" ("fake" transparency, it just copies the background into the terminal background)
+"+sb" (removes the scrollbar)
+
+
+Links
+=====
+aterm guide - make the aterm terminal look good
+A guide to aterms basic usage and settings
+http://linuxreviews.org/software/x11-terms/aterm/
+
