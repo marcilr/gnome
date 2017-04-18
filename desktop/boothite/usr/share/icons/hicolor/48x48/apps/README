@@ -1,0 +1,38 @@
+README
+Created Tue Apr 18 11:13:06 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+AdobeReader8.png
+  Adobe Acrobat 8 icon
+  https://en.wikipedia.org/wiki/Adobe_Acrobat_version_history
+  https://helpx.adobe.com/acrobat/kb/acrobat-8-9-product-downloads.html
+
+danpei.xpm
+  Danpei icon
+  Danpei is a Gtk+ based Image Viewer, works on X-Window system.
+  http://danpei.sourceforge.net/
+
+mozicon50.xpm
+  Mozilla Firefox icon
+  https://www.mozilla.org/en-US/firefox/new/  
+
+vmware-acevm.png
+  Looks like VM creation, configuration, and deployment
+  VMware has announced the end of availability (“EOA”)
+  of VMware ACE, effective on December 31, 2011.
+  http://www.vmware.com/products/ace.html
+
+vmware-player.png
+  VMware Player icon
+  http://www.vmware.com/products/player/playerpro-evaluation.html
+
+vmware-server.png
+  VMware Server icon (deprecated in favor of ESXi)
+  https://en.wikipedia.org/wiki/VMware_Server
+
+vmware-workstation.png
+  VMware Workstation icon
+  http://www.vmware.com/products/workstation.html
