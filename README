@@ -63,6 +63,10 @@ filetype-association.txt
 gdm.txt
   GNOME Display Manager
 
+gnome-launch-box.txt
+  gnome-launch-box - An application launcher for GNOME
+  https://wiki.gnome.org/Projects/GnomeLaunchBox
+
 gnome-shell-cli-installation-of-extensions.txt
   Gnome Shell - Command line Installation of Extensions
   from http://extensions.gnome.org
