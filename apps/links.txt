@@ -1,0 +1,46 @@
+links.txt
+Created Tue Apr 18 10:13:13 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Links related to gnome applications
+
+
+Links
+=====
+aterm - Afterstep XVT - a VT102 emulator for the X window system
+http://www.afterstep.org/aterm.php
+
+gkrellm - The GNU Krell Monitors
+http://gkrellm.srcbox.net/
+https://en.wikipedia.org/wiki/GKrellM
+
+gnome-btdownload - Gnome interface for 'executing' BitTorrent files
+A Gnome MIME-sink for BitTorrent files.
+This utility allows Gnome browsers to handle BitTorrent files naturally.
+Once it is installed, browsers will automatically pass bittorrent files
+to this utility and it will start to download the file.
+https://launchpad.net/gnome-btdownload
+
+GNOME Do (often referred to as Do) is a free application launcher
+for Linux originally created by David Siegel, and currently
+maintained by Alex Launi.  Like other application launchers, it
+allows searching for applications and files, but it also allows
+specifying actions to perform on search results.
+https://en.wikipedia.org/wiki/GNOME_Do
+
+Paralogger
+This project is unfortunately abandoned by the author (gtk)
+and is therefore unmaintained.  Feel free to take over
+maintainership.  After all its released under the GPL.
+Thank you for your interest in paralogger.
+Paralogger is a Bourne shell script to "tail" your system
+logs in pseudo transparent borderless Eterm(s).
+http://gtk.no/paralogger
+
+Root-Portal is a GNOME program that monitors files,
+processes etc and displays changes either directly
+to the desktop or in a transparent border-less
+window.  This is useful for monitoring system logs
+and for providing feedback on system activities.
+http://root-portal.sourceforge.net/
