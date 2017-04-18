@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Aterm
+Comment=Use the command line
+TryExec=aterm
+Exec=aterm -title `hostname` -vb -bg black -fg gray90 +sb -sl 5000 -g 100x24
+Icon=gnome-terminal.png
+Type=Application
+Categories=GTK;Application;Utility;TerminalEmulator;
+StartupNotify=true
