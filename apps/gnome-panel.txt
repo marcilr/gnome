@@ -1,0 +1,102 @@
+gnome-panel.txt
+Created Tue Apr 28 09:18:20 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Gnome panel
+
+
+Package
+=======
+gnome-menus - GNOME implementation of the freedesktop menu specification
+
+
+Set gnome menus bar background color?
+  Switch up from white to black on GCI Network Services, OSS covellite debian jessie
+  8.00 amd64 workstation.  Did procedure on top menu bar and bottom bar on large
+  left display on April 28, 2015.  Yes the display with menu bar switched from
+  far right to far left.
+ 
+  hold Alt-key right-click bar > left-click properties > Background
+  x Solid color
+  select black
+  
+  For tranparent drag selection all the way to the left.
+  click Close
+
+
+Gnome Shell Integration
+=======================
+Install Gnome Shell Integration in firefox (iceweasel) for configuration of 
+Activities Configurator GNOME shell extension.
+
+This plugin provides integration with Gnome Shell for extension enabling
+and disabling.  It can be used only by extensions.gnome.org
+
+Last Updated: 01/03/2015
+File:         libgnome-shell-browser-plugin.so
+MIME Types:   application/x-gnome-shell-integration \
+              (Gnome Shell Integration Dummy Content-Type)
+
+In firefox 
+  triple lines > Add-ons > Plugins > Gnome Shell Intregration
+
+  click Ask to Activate
+  select Always Activate 
+         Never Activate    <=== Unselected
+
+
+Install Activities Configurator
+===============================
+In Iceweasel, configured with Gnome Shell Integration go to:
+  http://extensions.gnome.org
+
+Search for Activities Configurator and select
+
+At Activities Configurator:
+  https://extensions.gnome.org/extension/358/activities-configurator/
+
+right-click Activities Configurator icon 
+
+FIXME: Have not gotten Firefox Gnome Shell Integration or
+       or the Activities Configurator working yet.
+
+Activities Configurator by nls1729[1]
+=======================
+Configure the Activities Button and Panel appearance with the Activities
+Configurator Extension and Gnome Shell Extension Preferences Tool.
+
+The gnome-shell-extensions package is installed already.
+  gnome-shell-extensions - Extensions to extend functionality of GNOME Shell
+
+Click the icon or text with the secondary mouse button to launch the Gnome Shell
+Extension Preferences Tool:
+
+  gnome-shell-extension-prefs
+
+
+Installaton of Activities Configurator
+======================================
+1. Downloaded from Extension Zip Files
+
+Activities Configurator: v35
+Gnome Shell Version(s):  3.8 3.10 3.12 3.14 3.15.92 3.16
+  https://nls1729.github.io/
+  https://nls1729.github.io/ego_zips.html
+  https://extensions.gnome.org/review/download/4749.shell-extension.zip
+
+
+Links
+=====
+[1] nls1729
+https://extensions.gnome.org/accounts/profile/nls1729
+
+Activities Configurator by nls1729
+Extension ofor making transparent panel
+https://extensions.gnome.org/extension/358/activities-configurator/
+https://nls1729.github.io
+
+
+GNOME Panel
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/GNOME_Panel
