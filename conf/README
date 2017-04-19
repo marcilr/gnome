@@ -9,3 +9,17 @@ configuration.txt
   Configuration
   /usr/share/applications/   Desktop menu item config
   /usr/share/icons/          Icons used in menu items
+
+control-center.txt
+  gnome-control-center - utilities to configure the GNOME desktop
+  GNOME's main interface to configure various aspects of the desktop
+  https://www.archlinux.org/packages/extra/i686/gnome-control-center/
+  https://git.gnome.org/browse/gnome-control-center
+
+dconf-editor.txt
+  dconf-editor - Configuration Editor
+  dconf is a low-level configuration system and settings management.
+  Its main purpose is to provide a back end to GSettings on platforms
+  that don't already have configuration storage systems.  It depends
+  on GLib. It is part of GNOME 3 and is a replacement for GConf.
+  https://en.wikipedia.org/wiki/Dconf
