@@ -20,13 +20,6 @@ popular mobile devices.
 
 Filelist
 ========
-classic-mode.txt
-  Gnome classic mode
-
-commands.txt
-  ctrl-alt-f2   Terminal window with login prompt
-  ctrl-alt-f7   Back to gnome
-
 conf/
   Configuration
 
