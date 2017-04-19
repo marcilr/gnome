@@ -6,7 +6,9 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 Filelist
 ========
 gdm.txt
+  gdm - GNOME Display Manager
+
   Switched up to xfce4 for use under debian 8 jessie.
+
   Not longer using:
     gdm3 - GNOME Display Manager
-
