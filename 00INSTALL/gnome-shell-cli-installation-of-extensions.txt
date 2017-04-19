@@ -1,0 +1,85 @@
+gnome-shell-cli-installation-of-extensions.txt
+Created Tue Apr 28 15:49:51 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Gnome Shell - Command line Installation of Extensions
+
+1. Installing ctivities Configurator extension from 
+https://extensions.gnome.org/extension/358/activities-configurator/
+
+2. To install a Gnome Shell Extension thru command line, first step is to
+determine the extension ID.  This can be done easily from the Gnome Shell
+Extensions site.  The extension ID is part of the description page URL,
+just after the /extension/ part.
+
+For example, Activities Configurator is:
+  https://extensions.gnome.org/extension/358/activities-configurator/
+
+So the id is 358.
+
+3. Next, you need to get your extension parameters from the Gnome Shell
+Extension site.
+
+The extension parameters are depending on 2 variables :
+
+o extension ID = 358 from step 2.
+o Gnome Shell version = 3.14.2 from inspection:
+
+$ gnome-shell --version
+GNOME Shell 3.14.2
+$
+
+The full parameters are available from a specific URL built-up following this
+model:
+
+  https://extensions.gnome.org/extension-info/?\
+  pk=extension-id&shell_version=gnome-shell-version
+
+So for Activities Configurator to get the parameters from the
+Gnome Shell Extension site would be
+
+  https://extensions.gnome.org/extension-info/?\
+  pk=358&shell_version=3.14.2
+
+This yields:
+
+{"shell_version_map": {"3.13.90": {"pk": 4217, "version": 30}, "3.10": \
+{"pk": 4749, "version": 35}, "3.12": {"pk": 4749, "version": 35}, "3.15.92": \
+{"pk": 4749, "version": 35}, "3.14": {"pk": 4749, "version": 35}, "3.16": \
+{"pk": 4749, "version": 35}, "3.6": {"pk": 3615, "version": 26}, "3.4": \
+{"pk": 2393, "version": 17}, "3.8": {"pk": 4749, "version": 35}}, \
+"description": "Configure the Activities Button and Panel appearance with the \
+Activities Configurator Extension and Gnome Shell Extension Preferences Tool. \
+Click the icon or text with the secondary mouse button to launch the Gnome \
+Shell Extension Preferences Tool.", "creator": "nls1729", "version_tag": \
+4749, "name": "Activities Configurator", "version": 35, "link": \
+"/extension/358/activities-configurator/", "download_url": \
+"/download-extension/activities-config@nls1729.shell-extension.zip?\
+version_tag=4749", "pk": 358, "creator_url": "/accounts/profile/nls1729", \
+"icon": "/static/extension-data/icons/icon_358_5.png", "uuid": \
+"activities-config@nls1729"}
+
+Important parameters are:
+
+o download_url : this is the URL to retrieve the extension archive
+  "/download-extension/activities-config@nls1729.shell-extension.zip?\
+version_tag=4749"
+
+o uuid : this is the extension unique identifier
+  "activities-config@nls1729"
+
+FIXME: Need to complete steps and fetch the installation script.
+
+bernaerts.dyndns.org/
+
+
+
+Links
+=====
+Gnome Shell - Command line Installation of Extensions
+from http://extensions.gnome.org
+By Nicolas Bernaerts  
+Creation 22 Jul 2013
+Update 16 Mar 2015
+http://bernaerts.dyndns.org/linux/76-gnome/283-gnome-shell-install-extension-command-line-script
