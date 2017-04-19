@@ -52,6 +52,9 @@ desktop/
 desktop-icons.txt
   Eable desktop icons and right-click 
 
+docs/
+  Documenation
+
 F1-F4.txt
   Configure F1-F4 hotkeys for swapping screens
 
