@@ -1,0 +1,28 @@
+gnome.txt
+Created Wed Apr 19 10:30:23 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+GNOME is a graphical interface for debian.
+Configuration details here.
+
+The GNOME Project was started in 1997 by two then university students,
+Miguel de Icaza and Federico Mena.  Their aim: to produce a free (as
+in freedom) desktop environment.  Since then, GNOME has grown into a
+hugely successful enterprise.  Used by millions of people across the
+world, it is the most popular desktop environment for GNU/Linux and
+UNIX-type operating systems.  The desktop has been utilised in
+successful, large-scale enterprise and public deployments, and the
+project's developer technologies are utilised in a large number of
+popular mobile devices.
+--archlinux.org/
+
+
+Links
+=====
+GNOME (pronounced gah-nohm or nohm) is a desktop environment that
+aims to be simple and easy to use.  It is designed by The GNOME
+Project and is composed entirely of free and open-source software.
+GNOME is a part of the GNU Project.  The default display is Wayland
+instead of Xorg.
+https://wiki.archlinux.org/index.php/GNOME
