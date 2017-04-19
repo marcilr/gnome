@@ -11,3 +11,7 @@ classic-mode.txt
 commands.txt
   ctrl-alt-f2   Terminal window with login prompt
   ctrl-alt-f7   Back to gnome
+
+F1-F4.txt
+  Configure F1-F4 hotkeys for swapping screens
+
