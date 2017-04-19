@@ -10,17 +10,21 @@ package: gnome-shell-extensions
 archlinux.org/
 
 
-If you want to keep an interface closer to the GNOME 2.30 version in wheezy, you can
-select the "GNOME Classic" session at the login prompt.  It will bring you an improved
-version of the traditional panel.  You can still edit the panel to add more applets,
-by using the hidden alt+right click combination.
+If you want to keep an interface closer to the GNOME 2.30
+version in wheezy, you can select the "GNOME Classic"
+session at the login prompt.  It will bring you an improved
+version of the traditional panel.  You can still edit the
+panel to add more applets, by using the hidden alt+right
+click combination.
 
 debian.org/
 
-Use "GNOME Classic" at login!  This provides the Applications drop-down rather than
-the useless Activities drop down.  Also has the Computer, home, and Trash on left 
-where they should be.  Noticed on malachite they got moved to the right display
-display in GNOME 3.  The classic setting is held from login to login.  Thank goodness
+Use "GNOME Classic" at login!  This provides the
+Applications drop-down rather than the useless Activities
+drop down.  Also has the Computer, home, and Trash on left 
+where they should be.  Noticed on malachite they got moved
+to the right display display in GNOME 3.  The classic
+setting is held from login to login.  Thank goodness
 the classic style is easily available.  Nuff said.
 
 
@@ -58,4 +62,3 @@ http://www.pcworld.com/article/2691192/how-gnome-3-14-is-winning-back-disillusio
 
 How To Tweak GNOME 3 To Your Needs
 https://piecesoflint.wordpress.com/2011/04/06/how-to-tweak-gnome-3-to-your-needs/
-
