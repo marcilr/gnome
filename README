@@ -30,11 +30,6 @@ commands.txt
 conf/
   Configuration
 
-configuration.txt
-  Configuration
-  /usr/share/applications/   Desktop menu item config
-  /usr/share/icons/          Icons used in menu items
-
 control-center.txt
   gnome-control-center - utilities to configure the GNOME desktop
   GNOME's main interface to configure various aspects of the desktop
