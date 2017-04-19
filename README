@@ -27,6 +27,9 @@ commands.txt
   ctrl-alt-f2   Terminal window with login prompt
   ctrl-alt-f7   Back to gnome
 
+conf/
+  Configuration
+
 configuration.txt
   Configuration
   /usr/share/applications/   Desktop menu item config
