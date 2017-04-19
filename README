@@ -29,11 +29,6 @@ desktop/
 docs/
   Documenation
 
-filetype-association.txt
-  Filetype associations in Gnome
-  Found solution here:
-  http://www.linuxquestions.org/questions/linux-software-2/filetype-associations-in-gnome-600458/
-
 gdm.txt
   GNOME Display Manager
 
