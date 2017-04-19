@@ -29,9 +29,6 @@ desktop/
 docs/
   Documenation
 
-F1-F4.txt
-  Configure F1-F4 hotkeys for swapping screens
-
 filetype-association.txt
   Filetype associations in Gnome
   Found solution here:
