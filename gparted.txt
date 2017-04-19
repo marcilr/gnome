@@ -5,11 +5,6 @@ by Raymond E. Marcil
 
 GParted partition editor
 
-
-gparted - GNOME partition editor
-
-Pretty nice GNOME parition editor.
-
 GParted is a free partition editor for graphically managing
 your disk partitions.
 
@@ -21,8 +16,32 @@ o Attempt data rescue from lost partitions
 --http://gparted.org/
 
 
+Pretty nice GNOME partition editor.
+
+
+Packages
+========
+gparted - GNOME partition editor
+
+
+Rename USB drive
+================
+I used gparted as described in
+  https://help.ubuntu.com/community/RenameUSBDrive.
+
+1. sudo apt-get install gparted.
+2. open gparted.
+3. choose the thumbdrive from the dropdown in the top-right corner.
+4. unmount the volume (right-click on drive)
+5. right click and choose "label"
+--ubuntu.com
+
+
 Links
 =====
 GNOME Partition Editor
 GParted partition editor
 http://gparted.org/
+
+How do I rename a USB drive?
+https://askubuntu.com/questions/103686/how-do-i-rename-a-usb-drive
