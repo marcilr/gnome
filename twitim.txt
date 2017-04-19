@@ -6,10 +6,12 @@ by Raymond E. Marcil
 
 Install
 =======
-Twitim is a Twitter client for GNOME. It features XMPP connections, custom watchlists, 
-sounds, and pop-up notifications.
+Twitim is a Twitter client for GNOME. It features
+XMPP connections, custom watchlists, sounds, and
+pop-up notifications.
 
-Initially downloaded  twitim_1.2.tar.gz then installed using aptitude.
+Initially downloaded  twitim_1.2.tar.gz then
+installed using aptitude.
 
 
 #
@@ -25,14 +27,6 @@ deb http://www.tsurukawa.org/debian/lenny/ ./
 
 Twitter
 =======
-full name: Raymond Marcil
-username: marcilr  
-pass: the usual + 689
-email pass: same as gmail
-email: marcilr@gmail.com
-url: http://twitter.com/marcilr
-
-
 We found 1 contact using Twitter.
 Select the people you'd like to start following.
 nikarig
@@ -45,15 +39,18 @@ Invited:
 Following:
 
 LeVar Burton - Actor, Director, Educator
-Nightline - ABC News, Nightline: LEGAL NOTICE: If you send us a tweet, you consent to 
-  letting ABC use and showcase it in any media, possibly even on television.
-Gov. Schwarzenegger - As California's 38th Governor I look forward to hearing from you. 
+Nightline - ABC News, Nightline: LEGAL NOTICE:
+If you send us a tweet, you consent to letting
+ABC use and showcase it in any media, possibly
+even on television.  Gov. Schwarzenegger - As
+California's 38th Governor I look forward to
+hearing from you. 
 Larry King
-TIME.com - Breaking news and current events from around the globe.
-CNN Breaking News - CNN.com is among the world's leaders in online news and information 
-  delivery.
 
-
+TIME.com - Breaking news and current events
+from around the globe.
+CNN Breaking News - CNN.com is among the world's
+leaders in online news and information delivery.
 
 
 Links
