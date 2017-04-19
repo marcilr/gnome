@@ -1,0 +1,10 @@
+configuration.txt
+Created Wed Apr 19 10:37:19 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Configuration
+
+
+/usr/share/applications     Desktop menu item config
+/usr/share/icons            Icons used in menu items
