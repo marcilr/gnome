@@ -18,6 +18,13 @@ popular mobile devices.
 --archlinux.org/
 
 
+Configuration
+=============
+/usr/share/applications     Desktop menu item config.
+/usr/share/icons            Icons used in menu items.
+
+
+
 Links
 =====
 GNOME (pronounced gah-nohm or nohm) is a desktop environment that
