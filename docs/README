@@ -15,3 +15,8 @@ commands.txt
 F1-F4.txt
   Configure F1-F4 hotkeys for swapping screens
 
+filetype-association.txt
+  Filetype associations in Gnome
+  Found solution here:
+  http://www.linuxquestions.org/questions/linux-software-2/filetype-associations-in-gnome-600458/
+
