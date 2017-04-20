@@ -9,6 +9,13 @@ GNOME related links
 Links
 =====
 GNOME
+GNU Object Model Environment
+Building a full, user-friendly desktop for
+Unix operating systems, based entirely on free
+software.
+http://www.gnome.org/
+
+GNOME
 Solid details on use of dconf for setting background image.
 Used in rewrite of ~/bin/wallpaper script for wheezy 7.1
 (gnome 4, gdm3 package) update.
