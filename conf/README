@@ -23,3 +23,7 @@ dconf-editor.txt
   that don't already have configuration storage systems.  It depends
   on GLib. It is part of GNOME 3 and is a replacement for GConf.
   https://en.wikipedia.org/wiki/Dconf
+
+gnome-tweak-tool.txt
+  Pick and chose what extensions to enable
+  https://extensions.gnome.org/
